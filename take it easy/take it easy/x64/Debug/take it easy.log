@@ -1,0 +1,49 @@
+﻿生成启动时间为 2014/9/20 15:40:11。
+     1>项目“D:\VS2013\MyProjects\take it easy\take it easy\take it easy.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS2013\MyProjects\take it easy\x64\Debug\take it easy.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\lib" "atk-1.0.lib" cairo.lib fontconfig.lib gailutil.lib "gdk_pixbuf-2.0.lib" "gdk-win32-3.0.lib" "gio-2.0.lib" "glib-2.0.lib" "gmodule-2.0.lib" "gobject-2.0.lib" "gthread-2.0.lib" "gtk-win32-3.0.lib" "pango-1.0.lib" "pangocairo-1.0.lib" "pangoft2-1.0.lib" "pangowin32-1.0.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS2013\MyProjects\take it easy\x64\Debug\take it easy.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS2013\MyProjects\take it easy\x64\Debug\take it easy.lib" /MACHINE:X64 x64\Debug\main.obj
+     1>main.obj : error LNK2019: 无法解析的外部符号 g_locale_to_utf8，该符号在函数 "char * __cdecl _(char *)" (?_@@YAPEADPEAD@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 g_type_check_instance_cast，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 g_signal_connect_data，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_widget_destroy，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_widget_show_all，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_widget_set_size_request，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_container_get_type，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_container_set_border_width，该符号在函数 "void __cdecl show2(void)" (?show2@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_container_add，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_window_get_type，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_window_new，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_window_set_title，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_window_set_position，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_window_set_default_size，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_dialog_get_type，该符号在函数 "void __cdecl show_question1(struct _GtkWidget *,void *)" (?show_question1@@YAXPEAU_GtkWidget@@PEAX@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_dialog_run，该符号在函数 "void __cdecl show_question1(struct _GtkWidget *,void *)" (?show_question1@@YAXPEAU_GtkWidget@@PEAX@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_label_new，该符号在函数 "void __cdecl show2(void)" (?show2@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_entry_new，该符号在函数 "void __cdecl show2(void)" (?show2@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_combo_box_set_active，该符号在函数 "void __cdecl show2(void)" (?show2@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_button_new_with_label，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_toggle_button_get_type，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_toggle_button_set_active，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_check_button_new_with_label，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_combo_box_text_new，该符号在函数 "void __cdecl show2(void)" (?show2@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_combo_box_text_append_text，该符号在函数 "void __cdecl show2(void)" (?show2@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_fixed_get_type，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_fixed_new，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_fixed_put，该符号在函数 "void __cdecl show1(void)" (?show1@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_init_abi_check，该符号在函数 main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_main，该符号在函数 main 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_main_quit，该符号在函数 "void __cdecl show4(void)" (?show4@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_message_dialog_new，该符号在函数 "void __cdecl show_question1(struct _GtkWidget *,void *)" (?show_question1@@YAXPEAU_GtkWidget@@PEAX@Z) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_radio_button_get_type，该符号在函数 "void __cdecl show2(void)" (?show2@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_radio_button_new_with_label，该符号在函数 "void __cdecl show2(void)" (?show2@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_radio_button_get_group，该符号在函数 "void __cdecl show2(void)" (?show2@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_scrolled_window_new，该符号在函数 "void __cdecl show2(void)" (?show2@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_scrolled_window_set_policy，该符号在函数 "void __cdecl show2(void)" (?show2@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_scrolled_window_add_with_viewport，该符号在函数 "void __cdecl show(void)" (?show@@YAXXZ) 中被引用
+     1>main.obj : error LNK2019: 无法解析的外部符号 gtk_text_view_new，该符号在函数 "void __cdecl show2(void)" (?show2@@YAXXZ) 中被引用
+     1>D:\VS2013\MyProjects\take it easy\x64\Debug\take it easy.exe : fatal error LNK1120: 39 个无法解析的外部命令
+     1>已完成生成项目“D:\VS2013\MyProjects\take it easy\take it easy\take it easy.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.48

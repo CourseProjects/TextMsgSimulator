@@ -1,0 +1,16 @@
+﻿生成启动时间为 2014/9/20 15:48:35。
+     1>项目“D:\VS2013\MyProjects\take it easy\take it easy\take it easy.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\pixman-1" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\pango-1.0" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\lzma" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\libxml2" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\librsvg-2.0" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\libpng15" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\libcroco-0.6" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\jasper" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\gtk-3.0" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\glib-2.0" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\gio-win32-2.0" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\gdk-pixbuf-2.0" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\gail-3.0" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\freetype2" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\fontconfig" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\cairo" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\atk-1.0" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\lib\libffi-3.0.12\include" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\lib\glib-2.0\include" /I"D:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\vs2013\myprojects\take it easy\take it easy\main.cpp(1): error C2018: 未知字符“0x60”
+     1>d:\vs2013\myprojects\take it easy\take it easy\main.cpp(1): error C2143: 语法错误 : 缺少“;”(在“-”的前面)
+     1>d:\vs2013\myprojects\take it easy\take it easy\main.cpp(1): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\vs2013\vc\include\sal.h(2381): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\vs2013\vc\include\sal.h(2381): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>d:\gtk+\gtk+-bundle_3.6.4-20130921_win32\include\gtk-3.0\gdk\gdkversionmacros.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>已完成生成项目“D:\VS2013\MyProjects\take it easy\take it easy\take it easy.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.10
